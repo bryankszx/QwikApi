@@ -1,6 +1,6 @@
-# Qwik Dog Breed Search
+# API DOG QWIK
 
-Projeto feito com **Qwik** para pesquisar raças de cachorro 
+Projeto feito com  o framework **Qwik** para pesquisar raças de cachorro 
 
 ---
 
