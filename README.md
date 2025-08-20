@@ -28,7 +28,7 @@ Projeto feito com  o framework**Qwik** para pesquisar raças de cachorro
 ## 📥 Passo a passo para rodar o projeto
 
 1 - Instale o qwik 
-    ```
+   ```bash
 npm create qwik@latest
    ```
 
