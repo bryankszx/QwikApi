@@ -35,7 +35,7 @@ npm create qwik@latest
    2- Acesse seu projeto
       ```bash
    cd nome-do-seu-projeto
-      ```
+      
 
 
    3 - Para rodar o projeto em modo desenvolvedor utilize 
