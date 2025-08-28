@@ -19,7 +19,7 @@ export default component$(() => {
         } else {
           result.value = { error: 'Nenhuma imagem encontrada para essa raça' };
         }
-      } catch (error) {
+      } catch {
         result.value = { error: 'Raça não encontrada! Verifique o nome digitado.' };
       }
     }
@@ -41,7 +41,7 @@ export default component$(() => {
       {result.value && (
         <div class="result">
           {result.value.message ? (
-            <img src={result.value.message} alt="Cachorro" />
+            <img src={result.value.message} alt="Cachorro" width={300} height={300} />
           ) : (
             <p>{result.value.error}</p>
           )}
