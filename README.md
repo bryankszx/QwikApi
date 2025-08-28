@@ -33,13 +33,32 @@ npm create qwik@latest
  ```
 
    2- Acesse seu projeto
-      ```bash
-   cd nome-do-seu-projeto
-      
+ ```bash
+cd nome-do-seu-projeto
+```      
 
 
    3 - Para rodar o projeto em modo desenvolvedor utilize 
  ```bash
 npm run dev
 ```
-#
+### Subir para o Git
+ Para pode subir seu projeto para o github devera realizar os seguintes passos
+ 1 - Rodar o Gh Pages no seu Projeto
+ ```bash
+npm install --save-dev gh-pages
+```
+2 - Apos isso deve se fazer uma alteração no deploy do package.json no trecho dos script
+```bash
+ "deploy": "gh-pages -d dist"
+```
+
+3- Apos isso para subir para seu repositorio deve se rodar esses comandos
+```bash
+npm run build
+npm run deploy
+```
+
+
+
+
